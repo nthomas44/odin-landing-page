@@ -180,6 +180,9 @@ body {
     }
 
     .action-box {
+        background-color: #3882f6;
+        border-radius: 25px;
+        
         flex: 0 1 66%;
         display: flex;
         justify-content: space-evenly;
@@ -187,11 +190,21 @@ body {
         }
     
     .text-action {
+        color: white;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: left;
         }
+    
+    .button.action-button {
+        border-radius: 10px;
+        border-width: 1px;
+        border-color: white;
+        border-style: solid;
+        padding: 5px 15px;
+    }
 
 
 .footer-row {
